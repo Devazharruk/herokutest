@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npx nodemon app.cjs",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "npx nodemon app.cjs"
+    "start": "node app.cjs"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
